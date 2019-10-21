@@ -114,6 +114,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Bg1.gif" />
+    <Content Include="Content\bg.gif" />
+    <Content Include="Content\Bg1.gif" />
     <Content Include="Presentation\AddCustomer.aspx" />
     <Content Include="Presentation\AddMovie.aspx" />
     <Content Include="Content\bootstrap-theme.css" />

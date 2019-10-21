@@ -3,7 +3,9 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
         <div class="row">
+             
             <div class="col-md-12" style="margin-left: auto; margin-right: auto; text-align: center;">
+                <hr class="new" />
                 <h1>Update or Delete Movie Details</h1>
             </div>
         </div>

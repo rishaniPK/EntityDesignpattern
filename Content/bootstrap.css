@@ -60,10 +60,9 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-image: url("../Bg1.gif");
+    background-image: url("../Content/bg1.gif");
     height: 100%;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     background-color: thistle;
 }

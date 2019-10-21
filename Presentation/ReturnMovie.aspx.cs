@@ -56,13 +56,13 @@ namespace EntityDesignPattern.Presentation
                         }
                     }
                     //Getting Movie details 
-                    List<Movy> Obj_Bike = Movies_BAL.GetMovieDetails_BAL(Obj_Rent[i].MovieID.ToString());
-                    if (Obj_Bike != null && Obj_Bike.Count > 0)
+                    List<Movy> Obj_Movie = Movies_BAL.GetMovieDetails_BAL(Obj_Rent[i].MovieID.ToString());
+                    if (Obj_Movie != null && Obj_Movie.Count > 0)
                     {
-                        for (int j = 0; j < Obj_Bike.Count; j++)
+                        for (int j = 0; j < Obj_Movie.Count; j++)
                         {
-                            txt_movieTitle.Text = Obj_Bike[j].Title;
-                            MovieRe = Convert.ToDecimal(Obj_Bike[j].RentPerDay);
+                            txt_movieTitle.Text = Obj_Movie[j].Title;
+                            MovieRe = Convert.ToDecimal(Obj_Movie[j].RentPerDay);
                         }
                     }
                     

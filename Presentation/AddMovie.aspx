@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-12" style="margin-left: auto; margin-right: auto; text-align: center;">
                 <br />
-                <hr class="new" />
+                 <hr class="new" />
                 <h1>Add Movie Details</h1>
             </div>
         </div>

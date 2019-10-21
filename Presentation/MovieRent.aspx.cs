@@ -50,7 +50,7 @@ namespace EntityDesignPattern.Presentation
 
                     ddl_Movie.Items.Add(Obj_Movie_ID[i].MovieID.ToString());
                 }
-                ddl_Movie.Items.Insert(0, new ListItem("Select Bike", " "));
+                ddl_Movie.Items.Insert(0, new ListItem("Select Movie", " "));
             }
             else
             {

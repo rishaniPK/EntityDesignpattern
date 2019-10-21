@@ -3,7 +3,9 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
         <div class="row">
+             
             <div class="col-md-12" style="margin-left: auto; margin-right: auto; text-align: center;">
+                <hr class="new" />
                 <h1>Issue Movie Details</h1>
             </div>
         </div>
@@ -26,7 +28,7 @@
                         <asp:TextBox ID="txt_FirstName" Style="float: left; text-align: center;" CssClass="form-control" placeholder="Customer First Name" Enabled="false" runat="server"></asp:TextBox>
                         <asp:RequiredFieldValidator ValidationGroup="Update" ID="reqFirstName" runat="server" ControlToValidate="txt_FirstName" ErrorMessage="Enter First Name" SetFocusOnError="true" Display="None"></asp:RequiredFieldValidator>
                         <asp:TextBox ID="txt_movieName" Style="float: right; text-align: center;" CssClass="form-control" placeholder="Movie Name" Enabled="false" runat="server"></asp:TextBox>
-                        <asp:RequiredFieldValidator ValidationGroup="Update" ID="regMovie" runat="server" ControlToValidate="txt_movieName" ErrorMessage="Enter Bike Model" SetFocusOnError="true" Display="None"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ValidationGroup="Update" ID="regMovie" runat="server" ControlToValidate="txt_movieName" ErrorMessage="Enter Movie name" SetFocusOnError="true" Display="None"></asp:RequiredFieldValidator>
                     </div>
                     <br />
                     <br />
